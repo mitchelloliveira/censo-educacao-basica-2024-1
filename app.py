@@ -23,7 +23,8 @@ st.title("📊 Dashboard - Censo da Educação Básica e Cursos Técnicos 2024")
 # --------------------------------------------
 # base = Path(r"C:\Users\gracabezerra\OneDrive - SENAC Pernambuco\Documentos\Python_work\microdados_censo_escolar_2024\microdados_censo_escolar_2024\dados")
 # base = Path(r"C:\Projetos\MBA\microdados_censo_escolar_2024\dados")
-arq_micro = "https://drive.usercontent.google.com/download?id=1BxpZMRcFY4W23wdN9JprUHs8kIvs-JIx&export=download&authuser=0&confirm=t&uuid=fb9cf1ea-41a8-46fd-b8f6-76c562c1116c&at=AKSUxGNSGkIUQ1WCPkgcNJCS2Sof:1761347206132"
+# arq_micro = "https://drive.usercontent.google.com/download?id=1BxpZMRcFY4W23wdN9JprUHs8kIvs-JIx&export=download&authuser=0&confirm=t&uuid=fb9cf1ea-41a8-46fd-b8f6-76c562c1116c&at=AKSUxGNSGkIUQ1WCPkgcNJCS2Sof:1761347206132"
+arq_micro = "https://drive.usercontent.google.com/download?id=1pVKJlxCaHZSLJQsPT9wyoYweNZRnhW4z&export=download&authuser=0&confirm=t&uuid=89b218b8-9653-463e-afba-5664684ca459&at=AKSUxGPunzix59FhIvsnTVFanvk9:1761359372832"
 arq_suple = "https://drive.usercontent.google.com/download?id=1eec97hETZ9gQTtdWMVbqUsMkbOu4XU2h&export=download&authuser=0&confirm=t&uuid=4a77ba39-b2ad-4dd6-9551-69e22f75b4fc&at=AKSUxGOlE5BZ5-iEDvmsPJXrPAe9:1761344839937"
 
 # CSV específico da análise de storytelling (ficar ao lado do app, ou ajuste o path conforme necessário)
