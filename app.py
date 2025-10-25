@@ -35,7 +35,8 @@ arq_story = "https://drive.usercontent.google.com/download?id=1P-dME1zfxQb72Yytt
 # =====================================================
 @st.cache_data(persist="disk", show_spinner=True)
 def carregar_dados():
-    micro = pd.read_excel(arq_micro, engine="pyxlsb")
+    # micro = pd.read_excel(arq_micro, engine="pyxlsb")
+    micro = pd.read_csv(arq_micro, sep=";", encoding="latin1", low_memory=False)
     suple = pd.read_csv(arq_suple, sep=";", encoding="latin1", low_memory=False)
 
     micro.columns = micro.columns.str.strip().str.upper()
